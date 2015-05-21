@@ -82,7 +82,7 @@ void loop() {
     }
   }
 
-  // Set GPIO2 according to the request
+  // Set GPIO13 according to the request
   if (val != -1) digitalWrite(led, val);
   
   client.flush();
